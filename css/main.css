@@ -18,7 +18,17 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
+    background-color:black;
     color: white;
+}
+
+a{
+    color:white;
+    font-weight: 300;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #e07274;
 }
 
 .container {
@@ -34,14 +44,24 @@ body {
 .center {
     position: absolute;
     margin:auto;
-    top:-13vh;
+    top:-6vh;
     left:0;
     bottom:0;
     right:0;
 }
 
+.lowerBound {
+    font-size:18px;
+    position: absolute;
+    margin: auto;
+    top: 54vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
 #fitba {
-    width:350px;
+    width:250px;
 }
 
 .fadeIn {
