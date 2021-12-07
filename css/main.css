@@ -23,6 +23,8 @@ body {
 }
 
 a{
+    padding:3px;
+    font-size:18px;
     color:white;
     font-weight: 300;
     text-decoration: none;
@@ -48,16 +50,6 @@ a:hover, a:active {
     left:0;
     bottom:0;
     right:0;
-}
-
-.lowerBound {
-    font-size:18px;
-    position: absolute;
-    margin: auto;
-    top: 54vh;
-    left: 0;
-    bottom: 0;
-    right: 0;
 }
 
 #fitba {
